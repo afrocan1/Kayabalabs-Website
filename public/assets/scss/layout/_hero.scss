@@ -247,38 +247,39 @@
         }
       }
 
-      .sec-title {
+            .sec-title {
         z-index: 2;
         font-weight: 600;
-        font-size: 306px;
+        font-size: 200px;
         line-height: 0.82;
         text-transform: uppercase;
         color: var(--black-2);
+        white-space: nowrap;
 
         @media #{$xxl} {
-          font-size: 260px;
+          font-size: 190px;
         }
 
         @media #{$xl} {
-          font-size: 260px;
+          font-size: 170px;
         }
 
         @media #{$lg} {
-          font-size: 180px;
-        }
-
-        @media #{$md} {
           font-size: 130px;
         }
 
+        @media #{$md} {
+          font-size: 100px;
+        }
+
         @media #{$sm} {
-          font-size: 90px;
+          font-size: 52px;
         }
       }
 
-      .title-right {
-        position: absolute;
-        right: 0;
+            .title-right {
+        display: block;
+        text-align: right;
       }
 
 
@@ -653,15 +654,11 @@
       }
     }
 
-    &-3 {
-      max-width: 320px;
-      padding-top: 90px;
+        &-3 {
+      max-width: 520px;
+      padding-top: 40px;
       position: relative;
       z-index: 9;
-
-      @media #{$xxl} {
-        transform: translateY(-30%);
-      }
 
       @media #{$xl} {
         padding-top: 50px;
