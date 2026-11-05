@@ -77,8 +77,8 @@ const DigitalAgency = () => {
   return (
     <div>
       <Head>
-        <title>KayabaLabs</title>
-        <meta name="description" content="Blockchain Development, Research And Education" />
+        <title>Prestige Group of Companies Ltd. – We Serve All Industries</title>
+<meta name="description" content="Prestige Group of Companies Ltd. – We Serve All Industries" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
