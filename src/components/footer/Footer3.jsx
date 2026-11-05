@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ThumbFooter from "../../../public/assets/imgs/thumb/tags.png";
-import FooterLogoWhite from "../../../public/assets/imgs/logo/KayabLabs-white.png";
+const FOOTER_LOGO =
+  "https://www.prestigegroupltd.com/wp-content/uploads/2025/05/prestige_logo_6.png";
 import Image from "next/image";
 
 export default function Footer3() {
@@ -25,15 +26,15 @@ export default function Footer3() {
               <div className="col-xxl-12">
                 <div className="footer__inner">
                   <div className="footer__widget">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      style={{ width: "auto", height: "auto", maxWidth: "150px" }}
                       className="footer__logo"
-                      src={FooterLogoWhite}
-                      alt="Footer Logo"
+                      src={FOOTER_LOGO}
+                      alt="Prestige Group of Companies Ltd."
                     />
                     <p>
-                      Blockchain R&D lab based in Accra, Ghana. We train developers in Web Development, incubate Web3 projects, and deliver cutting-edge blockchain solutions to clients across Africa and globally.
+                      Prestige Group of Companies Ltd (PGCL) is a Ghanaian company incorporated in 2013, offering consulting, haulage, procurement, civil engineering, general construction, oil and gas, and agriculture services.
                     </p>
                     <ul className="footer__social">
                       <li>
@@ -70,20 +71,20 @@ export default function Footer3() {
                   <div className="footer__widget-2">
                     <h2 className="footer__widget-title">Information</h2>
                     <ul className="footer__link">
-                      <li>
-                        <Link href="/about">About Company</Link>
-                      </li>
-                      {/* <li>
-                        <Link href="/portfolio">Case Study</Link>
-                      </li> */}
-                      <li>
-                        <Link href="/career">Career</Link>
+                                            <li>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link href="/blog">blog</Link>
+                        <Link href="/subsidiaries">Companies We Manage</Link>
                       </li>
                       <li>
-                        <Link href="/contact">contact</Link>
+                        <Link href="/projects">Projects</Link>
+                      </li>
+                      <li>
+                        <Link href="/news">News</Link>
+                      </li>
+                      <li>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -91,15 +92,15 @@ export default function Footer3() {
                   <div className="footer__widget-3">
                     <h2 className="footer__widget-title">Contact Us</h2>
                     <ul className="footer__contact">
-                      <li>Accra, Ghana 🇬🇭</li>
+                                            <li>Movenpick Ambassador Hotel Emporium 5th Floor, Accra, Ghana 🇬🇭</li>
                       <li>
-                        <a href="tel:02574328301" className="phone">
-                          (+233) 59 - 505 - 0911{" "}
+                        <a href="tel:+233249468284" className="phone">
+                          +233 249 468 284{" "}
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@kayabalabs.com">
-                          info@kayabalabs.com
+                        <a href="mailto:info@prestigegroupltd.com">
+                          info@prestigegroupltd.com
                         </a>
                       </li>
                     </ul>
@@ -114,7 +115,7 @@ export default function Footer3() {
                         href="/contact"
                         className="wc-btn-primary btn-hover btn-item"
                       >
-                        <span></span> contact us{" "}
+                        <span></span> Contact Us{" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -124,7 +125,7 @@ export default function Footer3() {
 
                   <div className="footer__copyright">
                     <p>
-                      © 2026 | All rights reserved by KAYABA LABS | Accra, Ghana 🇬🇭
+                      © 2026 | All rights reserved by Prestige Group of Companies Limited | Accra, Ghana 🇬🇭
                     </p>
                   </div>
 
