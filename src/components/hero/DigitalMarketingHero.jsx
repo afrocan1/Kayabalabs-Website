@@ -75,20 +75,18 @@ const DigitalMarketingHero = () => {
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Blockchain</h2>
+                  <h2 className="sec-sub-title">Transforming</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
-                    R&D
-                  </h3>
+  Business Growth
+</h3>
                   <h3 className="sec-title title-right" ref={titleRight}>
-                    Lab
-                  </h3>
+  to Drive Success
+</h3>
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-                    We train individuals in Web Development and blockchain development, 
-                    incubate innovative projects, and conduct market research to 
-                    build the decentralized future
-                  </p>
+  Prestige Group of Companies Ltd. – We Serve All Industries
+</p>
                 </div>
                 <div className="scroll-down">
                   <button>
