@@ -11,7 +11,7 @@ const DigitalAgencyCTA = () => {
               <div className="cta__content">
                 <p className="cta__sub-title">Work with us</p>
 <h2 className="cta__title title-anim">
-  Have a project in mind? Let's build it together
+  Have a project in mind? Let&apos;s build it together
 </h2>
                 <div className="btn_wrapper">
                   <Link
