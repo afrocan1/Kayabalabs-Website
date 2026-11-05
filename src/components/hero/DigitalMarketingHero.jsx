@@ -75,17 +75,20 @@ const DigitalMarketingHero = () => {
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Transforming</h2>
+                  <h2 className="sec-sub-title">We Serve All Industries</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
-  Business Growth
+  Prestige
 </h3>
                   <h3 className="sec-title title-right" ref={titleRight}>
-  to Drive Success
+  Group
 </h3>
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-  Prestige Group of Companies Ltd. – We Serve All Industries
+  Prestige Group of Companies Ltd. is committed to delivering
+  high-quality commercial and domestic construction services, with a
+  particular focus on affordable housing and general infrastructure
+  development.
 </p>
                 </div>
                 <div className="scroll-down">
