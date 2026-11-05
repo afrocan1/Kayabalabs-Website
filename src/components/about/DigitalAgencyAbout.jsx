@@ -33,8 +33,8 @@ const DigitalAgencyAbout = () => {
             <div className="col-xxl-12">
               <div className="about__title-wrapper">
                 <h3 className="sec-title title-anim">
-                  We empower the future of blockchain with training, research, and incubation
-                </h3>
+  Prestige Group of Companies Ltd (PGCL)
+</h3>
               </div>
 
               <div className="about__content-wrapper">
@@ -67,13 +67,22 @@ const DigitalAgencyAbout = () => {
 
                 <div className="about__content text-anim">
                   <p>
-                    KAYABA LABS is a blockchain research and development lab headquartered in Accra, Ghana, 
-                    with a global vision for Web3 innovation. We train individuals and organizations in Web Development 
-                    and blockchain development, incubate groundbreaking projects, and conduct strategic market 
-                    research across international markets. Operating from West Africa&apos;s emerging tech hub, 
-                    we collaborate with partners worldwide to advance the blockchain ecosystem through education, 
-                    innovation, and cutting-edge R&D.
-                  </p>
+  Prestige Group of Companies Limited was founded under a Joint Venture (JV)
+  Partnership Agreement through a Special Purpose Vehicle (SPV) arrangement
+  between <strong>Earth Africa Resources Ltd</strong> and{" "}
+  <strong>Yim Ventures</strong>. The company is committed to delivering
+  high-quality commercial and domestic construction services, with a
+  particular focus on affordable housing and general infrastructure
+  development.
+</p>
+<p>
+  Our operational portfolio spans land and property sales, procurement,
+  project planning and execution, and the management of commercial contracts
+  awarded by governments, corporate institutions, and key stakeholders. To
+  meet the diverse demands of our clients and projects, Prestige Group has
+  forged strategic partnerships with several international Engineering,
+  Procurement, Construction and Financing (EPC+F) firms.
+</p>
 
                   <div className="cursor-btn btn_wrapper">
                     <Link
