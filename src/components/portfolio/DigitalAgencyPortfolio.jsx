@@ -6,6 +6,28 @@ import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger);
 
 const LIVE = "https://www.prestigegroupltd.com";
+const IMG = `${LIVE}/wp-content/uploads/2025/12`;
+
+const PHOTOS = {
+  "best-link-ventures-limited": `${IMG}/327.jpg`,
+  "lewi-advisory-services-limited": `${IMG}/lewiadv_small.jpg`,
+  "prestige-farms-limited": `${IMG}/prefarm.jpg`,
+  "prestige-multimedia-limited": `${IMG}/lotterysm.jpg`,
+  "sun-farming-ghana-limited": `${IMG}/sunfarm.jpg`,
+  "prestige-mining-company": `${IMG}/mines.jpg`,
+  "marigold-oil-international-limited": `${IMG}/oilbarr.jpg`,
+  "lewi-dental-clinic-limited": `${IMG}/dentar.jpg`,
+  "heritage-gallery-limited": `${IMG}/artre.jpg`,
+  "trademart-ghana-limited": `${IMG}/211500.jpg`,
+  "prestige-link-security-limited": `${IMG}/secur.jpg`,
+  "prestige-friends-workforce": `${IMG}/131757000.jpg`,
+  "prestige-energy-limited": `${IMG}/eneg.jpg`,
+  "sajem-oil-gas-services-limited": `${IMG}/saje.jpg`,
+  "marigold-investment-limited": `${IMG}/invvee.jpg`,
+  "accra-international-airlines-limited": `${IMG}/airl.jpg`,
+  "nyive-oil-and-gas-limited": `${IMG}/985700.jpg`,
+  "lnh-ghana-limited": `${IMG}/llnn.jpg`,
+};
 
 /* Icons drawn on a 64x64 grid */
 const ICONS = {
@@ -241,11 +263,26 @@ const DigitalAgencyPortfolio = () => {
           border-color: rgba(212, 175, 55, 0.6);
           box-shadow: 0 28px 60px rgba(0, 0, 0, 0.5);
         }
-        .pg-card img {
+                .pg-card img {
           display: block;
           width: 100%;
           aspect-ratio: 520 / 700;
           object-fit: cover;
+          transition: transform 0.9s ease;
+        }
+        .pg-card:hover img {
+          transform: scale(1.07);
+        }
+        .pg-card::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            to top,
+            rgba(8, 10, 16, 0.75) 0%,
+            rgba(8, 10, 16, 0) 45%
+          );
+          pointer-events: none;
         }
         .pg-grid .portfolio__info {
           padding-top: 18px;
@@ -292,12 +329,12 @@ const DigitalAgencyPortfolio = () => {
                     className="pg-card"
                     aria-label={c.title}
                   >
-                    {c.photo ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img src={c.photo} alt={c.title} loading="lazy" />
-                    ) : (
-                      <CompanyArt item={c} />
-                    )}
+                    {PHOTOS[c.slug] ? (
+  // eslint-disable-next-line @next/next/no-img-element
+  <img src={PHOTOS[c.slug]} alt={c.title} loading="lazy" />
+) : (
+  <CompanyArt item={c} />
+)}
                   </Link>
                   <div className="portfolio__info">
                     <h3 className="portfolio__title">{c.title}</h3>
