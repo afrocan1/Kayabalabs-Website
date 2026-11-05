@@ -117,36 +117,22 @@ const DigitalAgencyService = () => {
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="sec-title-wrapper wrap">
-                <h2 className="sec-sub-title title-anim">service</h2>
-                <h3 className="sec-title title-anim">
-                  Solutions we <br />
-                  provide
-                </h3>
+                <h2 className="sec-sub-title title-anim">Prestige Group</h2>
+<h3 className="sec-title title-anim">
+  Our Core <br />
+  Values
+</h3>
               </div>
             </div>
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="service__top-text text-anim">
                 <p>
-                  With every project we bring forth a deep
-                  passion for <span>blockchain innovation</span>{" "}
-                  and building the decentralized future
-                </p>
+  Five principles guide how we deliver every project for our{" "}
+  <span>partners and stakeholders</span>
+</p>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-              <div className="service__top-btn">
-                <div className="btn_wrapper">
-                  <Link
-                    href="/service"
-                    className="btn-item wc-btn-secondary btn-hover"
-                  >
-                    <span></span> View <br />
-                    all services <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+            
 
           <div className="service__list-wrapper">
             <div className="row">
@@ -244,13 +230,13 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Web Development Training & Education
+                          Integrity & Respect
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          Comprehensive training programs in Web Development and blockchain 
-                          development for individuals and teams entering Web3
+                          We uphold honesty and transparency in all our dealings, fostering
+mutual respect and trust with our partners and stakeholders.
                         </p>
                       </div>
                       <div className="service__link">
@@ -272,14 +258,13 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Smart Contract <br />
-                          Development
+                          Innovation
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          Expert development of secure and efficient smart contracts 
-                          for decentralized applications and blockchain platforms
+                          We embrace creative and forward-thinking solutions that positively
+impact the built environment and enhance project outcomes.
                         </p>
                       </div>
                       <div className="service__link">
@@ -301,14 +286,13 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          DApp <br />
-                          Nursery
+                          Accountability
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          Supporting innovative blockchain and software projects from concept 
-                          to launch with technical and strategic guidance
+                          We take full responsibility for our actions and decisions, ensuring
+that our partners and stakeholders can rely on us with confidence.
                         </p>
                       </div>
                       <div className="service__link">
@@ -330,13 +314,14 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Blockchain Research & Analysis
+                          Participatory <br />
+Process
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          Comprehensive market research and technical analysis for 
-                          blockchain solutions and emerging Web3 technologies
+                          We promote inclusive engagement throughout every phase of project
+delivery, ensuring that all stakeholders feel ownership and involvement.
                         </p>
                       </div>
                       <div className="service__link">
@@ -346,6 +331,32 @@ const DigitalAgencyService = () => {
                       </div>
                     </div>
                   </Link>
+
+                  <Link
+  href="/service-details"
+  className={activeList == 5 ? "active" : ""}
+  data-service="5"
+>
+  <div className="service__item  animation_home1_service">
+    <div className="service__number">
+      <span>05</span>
+    </div>
+    <div className="service__title-wrapper">
+      <h4 className="service__title">Commitment</h4>
+    </div>
+    <div className="service__text">
+      <p>
+        We are dedicated to delivering efficient, high-quality services
+        that exceed client expectations and create lasting impact.
+      </p>
+    </div>
+    <div className="service__link">
+      <p>
+        <i className="fa-solid fa-arrow-right"></i>
+      </p>
+    </div>
+  </div>
+</Link>
                 </div>
               </div>
             </div>
