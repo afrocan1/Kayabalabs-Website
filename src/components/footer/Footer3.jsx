@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ThumbFooter from "../../../public/assets/imgs/thumb/tags.png";
 const FOOTER_LOGO =
   "https://www.prestigegroupltd.com/wp-content/uploads/2025/05/prestige_logo_6.png";
 import Image from "next/image";
@@ -9,15 +8,7 @@ export default function Footer3() {
     <>
       <footer className="footer__area">
         <div className="footer__top">
-          <div className="container footer-line"></div>
-          <Image
-            priority
-            width={1160}
-            style={{ height: "auto" }}
-            src={ThumbFooter}
-            alt="Footer Image"
-            data-speed="0.75"
-          />
+                    <div className="container footer-line"></div>
         </div>
 
         <div className="footer__btm">
